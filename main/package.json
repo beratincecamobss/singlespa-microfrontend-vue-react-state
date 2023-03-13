@@ -1,0 +1,23 @@
+{
+  "name": "main",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "start": "npm run serve"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "nprogress": "^0.2.0",
+    "qiankun": "^2.0.22",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
